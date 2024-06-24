@@ -9,7 +9,7 @@
       "api/models/Recomendaciones.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/recommendatios.php": {
+      "api/recommendations.php": {
         "runtime": "vercel-php@0.7.1"
       },
       "api/foods.php": {
