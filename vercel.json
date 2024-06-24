@@ -1,15 +1,15 @@
 {
     "functions": {
-      "api/*.php": {
+      "api/index.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/controller/*.php": {
+      "api/Alimentos.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/config/*.php": {
+      "api/foods.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/models/*.php": {
+      "api/conx.php": {
         "runtime": "vercel-php@0.7.1"
       }
     }
