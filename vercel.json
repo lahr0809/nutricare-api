@@ -2,12 +2,12 @@
     "functions": {
       "api/*.php": {
         "runtime": "vercel-php@0.7.1"
+      },
+      "api/controller/*.php": {
+        "runtime": "vercel-php@0.7.1"
+      },
+      "api/config/*.php": {
+        "runtime": "vercel-php@0.7.1"
       }
-    },
-    "routes": [
-        {
-            "src": "/controller/foods.php",
-            "dest": "/controller/foods.php?op=GetAll"
-        }
-    ]
+    }
   }
