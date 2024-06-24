@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-require_once("../config/conx.php");
-require_once("../models/Alimentos.php");
+require_once("https://nutricarepsi.vercel.app/api/config/conx.php");
+require_once("https://nutricarepsi.vercel.app/api/models/Alimentos.php");
 
 $alimento = new Alimentos();
 

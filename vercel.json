@@ -8,6 +8,9 @@
       },
       "api/config/*.php": {
         "runtime": "vercel-php@0.7.1"
+      },
+      "api/models/*.php": {
+        "runtime": "vercel-php@0.7.1"
       }
     }
   }
