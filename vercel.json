@@ -9,7 +9,7 @@
       "api/foods.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/conx.php": {
+      "api/config/conx.php": {
         "runtime": "vercel-php@0.7.1"
       }
     }
