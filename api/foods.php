@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-require_once("../api/config/conx.php");
-require_once("../api/models/Alimentos.php");
+require_once("conx.php");
+require_once("Alimentos.php");
 
 $alimento = new Alimentos();
 
