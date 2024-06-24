@@ -3,7 +3,13 @@
       "api/index.php": {
         "runtime": "vercel-php@0.7.1"
       },
-      "api/Alimentos.php": {
+      "api/models/Alimentos.php": {
+        "runtime": "vercel-php@0.7.1"
+      },
+      "api/models/Recomendaciones.php": {
+        "runtime": "vercel-php@0.7.1"
+      },
+      "api/controller/recommendatios.php": {
         "runtime": "vercel-php@0.7.1"
       },
       "api/foods.php": {

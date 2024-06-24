@@ -3,8 +3,8 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
-require_once("../config/conx.php");
-require_once("../models/Recomendaciones.php");
+require_once("config/conx.php");
+require_once("models/Recomendaciones.php");
 
 $Recomendaciones = new Recomendaciones();
 

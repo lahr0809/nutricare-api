@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
 require_once("config/conx.php");
-require_once("Alimentos.php");
+require_once("models/Alimentos.php");
 
 $alimento = new Alimentos();
 
