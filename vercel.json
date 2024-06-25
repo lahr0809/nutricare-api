@@ -19,7 +19,14 @@
         "runtime": "vercel-php@0.7.1"
       }
     },
-    "routes": [
-    { "src": "/assets/style.css", "dest": "/assets/style.css" }]
-
+    "builds": [
+      {
+        "src": "assets/style.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "api/assets/style.css",
+        "use": "@vercel/static"
+      }
+    ]
   }

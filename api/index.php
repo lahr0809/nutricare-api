@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API - Nutricare</title>
     <link rel="stylesheet" href="api/assets/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
 </head>
 <body>
 
