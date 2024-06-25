@@ -21,12 +21,12 @@
     },
     "routes": [
       {
-        "src": "assets/style.css",
-        "dest": "assets/style.css"
+        "src": "style.css",
+        "dest": "style.css"
       },
       {
-        "src": "api/assets/style.css",
-        "dest": "api/assets/style.css"
+        "src": "api/style.css",
+        "dest": "api/style.css"
       }
     ]
   }
