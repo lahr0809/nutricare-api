@@ -4,9 +4,9 @@ class Conectar{
 
   protected $dbh;
   protected function Conexion() {
-        $dsn = 'mysql:host=sql5.freesqldatabase.com;dbname=sql5715818';
-        $usuario = 'sql5715818';
-        $contraseña = '4I5NqbbxPx';
+        $dsn = 'mysql:host=sql3.freesqldatabase.com;dbname=sql3722847';
+        $usuario = 'sql3722847';
+        $contraseña = 'iTJZEexMcg';
     
         try {
             $conexion =$this->dbh= new PDO($dsn, $usuario, $contraseña);
